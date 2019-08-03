@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\yogan\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\yogan\\AndroidStudioProjects\\FailSafe\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\yogan\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\yogan\\AndroidStudioProjects\\FailSafe\\app\\.externalNativeBuild\\cmake\\release\\x86_64 --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\yogan\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\yogan\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/x86_64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/.externalNativeBuild/cmake/release/x86_64"
+				}
+			],
+			"output" : "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/build/intermediates/cmake/release/obj/x86_64/libnative-lib.so",
+			"toolchain" : "1743740257"
+		}
+	},
+	"toolchains" : 
+	{
+		"1743740257" : 
+		{
+			"cCompilerExecutable" : "C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

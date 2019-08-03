@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\yogan\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\yogan\\AndroidStudioProjects\\FailSafe\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "native-lib",
+			"buildCommand" : "C:\\Users\\yogan\\AppData\\Local\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build C:\\Users\\yogan\\AndroidStudioProjects\\FailSafe\\app\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target native-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi21 --gcc-toolchain=C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem C:\\Users\\yogan\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++\\include -isystem C:\\Users\\yogan\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\llvm-libc++abi\\include  -isystem C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "C:/Users/yogan/AndroidStudioProjects/FailSafe/app/build/intermediates/cmake/release/obj/armeabi-v7a/libnative-lib.so",
+			"toolchain" : "1743740257"
+		}
+	},
+	"toolchains" : 
+	{
+		"1743740257" : 
+		{
+			"cCompilerExecutable" : "C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/yogan/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
